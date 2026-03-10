@@ -20,7 +20,7 @@ A hands-on collection of Go (Golang) learning examples, progressing from the ver
 
 ### Prerequisites
 
-- **Go** installed (version 1.22+ recommended) — [Download Go](https://go.dev/dl/)
+- **Go** installed ( version latest OR version 1.22+ recommended) — [Download Go](https://go.dev/dl/)
 
 ### Running Examples
 
