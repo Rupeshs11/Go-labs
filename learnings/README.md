@@ -1,33 +1,36 @@
 # 🐹 Go Language — Learning Notes
 
-A hands-on collection of Go (Golang) learning examples, progressing from the very basics to more advanced data structures. Each folder contains working Go code with a detailed `README.md` explaining the topic and code.
+A hands-on collection of Go (Golang) learning examples, progressing from basics to structs and interfaces. Each folder contains working Go code with a `README.md` explaining the topic.
 
 ---
 
 ## 📚 Topics Covered
 
-| #   | Folder                                       | Topic                     | Key Concepts                                             |
-| --- | -------------------------------------------- | ------------------------- | -------------------------------------------------------- |
-| 01  | [Hello World](./01_Hello_world/)             | First Go program          | `package main`, `fmt.Println`, `go run`, `go build`      |
-| 02  | [Simple Values](./02_simple_values/)         | Basic data types          | `int`, `float64`, `string`, `bool`                       |
-| 03  | [Variables](./03_variables/)                 | Variable declarations     | `var`, `:=` shorthand, type inference, zero values       |
-| 04  | [Constants](./04_constants/)                 | Constants                 | `const`, grouped constants, compile-time values          |
-| 05  | [Loops](./05_Loops/)                         | Loops (for, while, range) | `for`, `range`, while-style, infinite loop               |
-| 06  | [Conditionals](./06_Conditionals/)           | If / Else                 | `if/else`, init statements, no ternary operator          |
-| 07  | [Switch Statements](./07_switch-statements/) | Switch                    | Basic switch, multi-value cases, type switch             |
-| 08  | [Arrays](./08_Arrays/)                       | Arrays                    | Fixed-size arrays, 2D arrays, zero values                |
-| 09  | [Slices](./09_slices/)                       | Slices                    | `make`, `append`, `copy`, slice operator, `slices.Equal` |
+| #   | Folder                                        | Topic                 | Key Concepts                                        |
+| --- | --------------------------------------------- | --------------------- | --------------------------------------------------- |
+| 01  | [Hello World](./01_Hello_world/)              | First Go program      | `package main`, `fmt.Println`, `go run`, `go build` |
+| 02  | [Simple Values](./02_simple_values/)          | Basic data types      | `int`, `float64`, `string`, `bool`                  |
+| 03  | [Variables](./03_variables/)                  | Variable declarations | `var`, `:=` shorthand, type inference, zero values  |
+| 04  | [Constants](./04_constants/)                  | Constants             | `const`, grouped constants, compile-time values     |
+| 05  | [Loops](./05_Loops/)                          | Loops                 | `for`, `range`, while-style, infinite loop          |
+| 06  | [Conditionals](./06_Conditionals/)            | If / Else             | `if/else`, init statements, no ternary operator     |
+| 07  | [Switch Statements](./07_switch-statements/)  | Switch                | Basic switch, multi-value cases, type switch        |
+| 08  | [Arrays](./08_Arrays/)                        | Arrays                | Fixed-size arrays, 2D arrays, zero values           |
+| 09  | [Slices](./09_slices/)                        | Slices                | `make`, `append`, `copy`, slice operator            |
+| 10  | [Maps](./10_Maps/)                            | Maps                  | Key-value pairs, `delete`, comma-ok idiom           |
+| 11  | [Range](./11_Range/)                          | Range                 | Iterating slices, maps, strings with `range`        |
+| 12  | [Functions](./12_Functions/)                  | Functions             | Multiple returns, `fmt.Scan`, first-class functions |
+| 13  | [Variadic Functions](./13_variadic_function/) | Variadic Functions    | `...` syntax, spreading slices                      |
+
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- **Go** installed ( version latest OR version 1.22+ recommended) — [Download Go](https://go.dev/dl/)
+- **Go** installed (version latest OR 1.22+ recommended) — [Download Go](https://go.dev/dl/)
 
 ### Running Examples
-
-Navigate into any folder and run the Go file:
 
 ```bash
 cd learnings/01_Hello_world
@@ -42,13 +45,17 @@ go run main.go
 
 ```
 learnings/
-├── 01_Hello_world/        # Your first Go program
-├── 02_simple_values/      # Data types: int, float, string, bool
-├── 03_variables/          # Variable declaration & type inference
-├── 04_constants/          # Constants & grouped const blocks
-├── 05_Loops/              # For loops, while-style, range
-├── 06_Conditionals/       # If/else with init statements
-├── 07_switch-statements/  # Switch, multi-case, type switch
-├── 08_Arrays/             # Fixed-size arrays & 2D arrays
-├── 09_slices/             # Dynamic slices, append, copy, compare
+├── 01_Hello_world/           # First program, go run & go build
+├── 02_simple_values/         # int, float, string, bool
+├── 03_variables/             # var, :=, type inference
+├── 04_constants/             # const, grouped blocks
+├── 05_Loops/                 # for, while-style, range
+├── 06_Conditionals/          # if/else, init statements
+├── 07_switch-statements/     # switch, multi-case, type switch
+├── 08_Arrays/                # Fixed-size arrays, 2D arrays
+├── 09_slices/                # Dynamic slices, append, copy
+├── 10_Maps/                  # Key-value pairs, delete, compare
+├── 11_Range/                 # Iterating with range
+├── 12_Functions/             # Multiple returns, first-class funcs
+└── 13_variadic_function/     # ... syntax, spread operator
 ```
