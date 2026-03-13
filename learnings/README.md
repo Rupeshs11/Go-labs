@@ -21,6 +21,10 @@ A hands-on collection of Go (Golang) learning examples, progressing from basics 
 | 11  | [Range](./11_Range/)                          | Range                 | Iterating slices, maps, strings with `range`        |
 | 12  | [Functions](./12_Functions/)                  | Functions             | Multiple returns, `fmt.Scan`, first-class functions |
 | 13  | [Variadic Functions](./13_variadic_function/) | Variadic Functions    | `...` syntax, spreading slices                      |
+| 14  | [Closures](./14_closures/)                    | Closures              | Functions with persistent state                     |
+| 15  | [Pointers](./15_pointers/)                    | Pointers              | `&`, `*`, pass by value vs reference                |
+| 16  | [Structs](./16_Structs/)                      | Structs               | Methods, constructors, embedding (composition)      |
+| 17  | [Interfaces](./17_Interface/)                 | Interfaces            | Implicit implementation, polymorphism               |
 
 ---
 
@@ -57,5 +61,9 @@ learnings/
 ├── 10_Maps/                  # Key-value pairs, delete, compare
 ├── 11_Range/                 # Iterating with range
 ├── 12_Functions/             # Multiple returns, first-class funcs
-└── 13_variadic_function/     # ... syntax, spread operator
+├── 13_variadic_function/     # ... syntax, spread operator
+├── 14_closures/              # Functions with persistent state
+├── 15_pointers/              # & and * operators, pass by ref
+├── 16_Structs/               # Methods, constructors, embedding
+└── 17_Interface/             # Implicit interfaces, polymorphism
 ```
