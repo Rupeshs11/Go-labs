@@ -25,6 +25,8 @@ A hands-on collection of Go (Golang) learning examples, progressing from basics 
 | 15  | [Pointers](./15_pointers/)                    | Pointers              | `&`, `*`, pass by value vs reference                |
 | 16  | [Structs](./16_Structs/)                      | Structs               | Methods, constructors, embedding (composition)      |
 | 17  | [Interfaces](./17_Interface/)                 | Interfaces            | Implicit implementation, polymorphism               |
+| 18  | [Enums](./18_Enums/)                          | Enums                 | Custom types, `const` blocks, `iota`                |
+| 19  | [Generics](./19_generics/)                    | Generics              | Type parameters, constraints, generic structs       |
 
 ---
 
@@ -65,5 +67,7 @@ learnings/
 ├── 14_closures/              # Functions with persistent state
 ├── 15_pointers/              # & and * operators, pass by ref
 ├── 16_Structs/               # Methods, constructors, embedding
-└── 17_Interface/             # Implicit interfaces, polymorphism
+├── 17_Interface/             # Implicit interfaces, polymorphism
+├── 18_Enums/                 # Enums using const & custom types
+└── 19_generics/              # Type parameters, generic structs
 ```
