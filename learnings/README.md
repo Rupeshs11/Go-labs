@@ -27,6 +27,7 @@ A hands-on collection of Go (Golang) learning examples, progressing from basics 
 | 17  | [Interfaces](./17_Interface/)                 | Interfaces            | Implicit implementation, polymorphism               |
 | 18  | [Enums](./18_Enums/)                          | Enums                 | Custom types, `const` blocks, `iota`                |
 | 19  | [Generics](./19_generics/)                    | Generics              | Type parameters, constraints, generic structs       |
+| 20  | [Goroutines](./20_Goroutines/)                | Goroutines            | `go` keyword, `sync.WaitGroup`, concurrency         |
 
 ---
 
@@ -69,5 +70,6 @@ learnings/
 ├── 16_Structs/               # Methods, constructors, embedding
 ├── 17_Interface/             # Implicit interfaces, polymorphism
 ├── 18_Enums/                 # Enums using const & custom types
-└── 19_generics/              # Type parameters, generic structs
+├── 19_generics/              # Type parameters, generic structs
+└── 20_Goroutines/            # go keyword, WaitGroup, concurrency
 ```
