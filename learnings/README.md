@@ -28,6 +28,8 @@ A hands-on collection of Go (Golang) learning examples, progressing from basics 
 | 18  | [Enums](./18_Enums/)                          | Enums                 | Custom types, `const` blocks, `iota`                |
 | 19  | [Generics](./19_generics/)                    | Generics              | Type parameters, constraints, generic structs       |
 | 20  | [Goroutines](./20_Goroutines/)                | Goroutines            | `go` keyword, `sync.WaitGroup`, concurrency         |
+| 21  | [Channels](./21_Channels/)                    | Channels              | `chan`, buffered, `select`, synchronization         |
+| 22  | [Mutex](./22_Mutex/)                          | Mutex                 | `sync.Mutex`, race conditions, Lock/Unlock          |
 
 ---
 
@@ -71,5 +73,7 @@ learnings/
 ├── 17_Interface/             # Implicit interfaces, polymorphism
 ├── 18_Enums/                 # Enums using const & custom types
 ├── 19_generics/              # Type parameters, generic structs
-└── 20_Goroutines/            # go keyword, WaitGroup, concurrency
+├── 20_Goroutines/            # go keyword, WaitGroup, concurrency
+├── 21_Channels/              # chan, buffered, select, sync
+└── 22_Mutex/                 # sync.Mutex, race condition prevention
 ```
