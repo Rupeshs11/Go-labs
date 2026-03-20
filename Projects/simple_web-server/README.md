@@ -10,6 +10,10 @@ A basic HTTP web server built with Go's standard `net/http` package — no exter
 | `/hello` | GET    | Returns a simple "hello!" text response   |
 | `/form`  | POST   | Handles form submission (name & address)  |
 
+## Flow
+
+![Server Flow](./assets/flow.png)
+
 ## Project Structure
 
 ```
