@@ -6,31 +6,32 @@ A hands-on collection of Go (Golang) learning examples, progressing from basics 
 
 ## 📚 Topics Covered
 
-| #   | Folder                                        | Topic                 | Key Concepts                                        |
-| --- | --------------------------------------------- | --------------------- | --------------------------------------------------- |
-| 01  | [Hello World](./01_Hello_world/)              | First Go program      | `package main`, `fmt.Println`, `go run`, `go build` |
-| 02  | [Simple Values](./02_simple_values/)          | Basic data types      | `int`, `float64`, `string`, `bool`                  |
-| 03  | [Variables](./03_variables/)                  | Variable declarations | `var`, `:=` shorthand, type inference, zero values  |
-| 04  | [Constants](./04_constants/)                  | Constants             | `const`, grouped constants, compile-time values     |
-| 05  | [Loops](./05_Loops/)                          | Loops                 | `for`, `range`, while-style, infinite loop          |
-| 06  | [Conditionals](./06_Conditionals/)            | If / Else             | `if/else`, init statements, no ternary operator     |
-| 07  | [Switch Statements](./07_switch-statements/)  | Switch                | Basic switch, multi-value cases, type switch        |
-| 08  | [Arrays](./08_Arrays/)                        | Arrays                | Fixed-size arrays, 2D arrays, zero values           |
-| 09  | [Slices](./09_slices/)                        | Slices                | `make`, `append`, `copy`, slice operator            |
-| 10  | [Maps](./10_Maps/)                            | Maps                  | Key-value pairs, `delete`, comma-ok idiom           |
-| 11  | [Range](./11_Range/)                          | Range                 | Iterating slices, maps, strings with `range`        |
-| 12  | [Functions](./12_Functions/)                  | Functions             | Multiple returns, `fmt.Scan`, first-class functions |
-| 13  | [Variadic Functions](./13_variadic_function/) | Variadic Functions    | `...` syntax, spreading slices                      |
-| 14  | [Closures](./14_closures/)                    | Closures              | Functions with persistent state                     |
-| 15  | [Pointers](./15_pointers/)                    | Pointers              | `&`, `*`, pass by value vs reference                |
-| 16  | [Structs](./16_Structs/)                      | Structs               | Methods, constructors, embedding (composition)      |
-| 17  | [Interfaces](./17_Interface/)                 | Interfaces            | Implicit implementation, polymorphism               |
-| 18  | [Enums](./18_Enums/)                          | Enums                 | Custom types, `const` blocks, `iota`                |
-| 19  | [Generics](./19_generics/)                    | Generics              | Type parameters, constraints, generic structs       |
-| 20  | [Goroutines](./20_Goroutines/)                | Goroutines            | `go` keyword, `sync.WaitGroup`, concurrency         |
-| 21  | [Channels](./21_Channels/)                    | Channels              | `chan`, buffered, `select`, synchronization         |
-| 22  | [Mutex](./22_Mutex/)                          | Mutex                 | `sync.Mutex`, race conditions, Lock/Unlock          |
-| 23  | [File Handling](./23_File-Handling/)          | File Handling         | Read, write, copy, delete, `os` & `bufio` packages  |
+| #   | Folder                                        | Topic                 | Key Concepts                                         |
+| --- | --------------------------------------------- | --------------------- | ---------------------------------------------------- |
+| 01  | [Hello World](./01_Hello_world/)              | First Go program      | `package main`, `fmt.Println`, `go run`, `go build`  |
+| 02  | [Simple Values](./02_simple_values/)          | Basic data types      | `int`, `float64`, `string`, `bool`                   |
+| 03  | [Variables](./03_variables/)                  | Variable declarations | `var`, `:=` shorthand, type inference, zero values   |
+| 04  | [Constants](./04_constants/)                  | Constants             | `const`, grouped constants, compile-time values      |
+| 05  | [Loops](./05_Loops/)                          | Loops                 | `for`, `range`, while-style, infinite loop           |
+| 06  | [Conditionals](./06_Conditionals/)            | If / Else             | `if/else`, init statements, no ternary operator      |
+| 07  | [Switch Statements](./07_switch-statements/)  | Switch                | Basic switch, multi-value cases, type switch         |
+| 08  | [Arrays](./08_Arrays/)                        | Arrays                | Fixed-size arrays, 2D arrays, zero values            |
+| 09  | [Slices](./09_slices/)                        | Slices                | `make`, `append`, `copy`, slice operator             |
+| 10  | [Maps](./10_Maps/)                            | Maps                  | Key-value pairs, `delete`, comma-ok idiom            |
+| 11  | [Range](./11_Range/)                          | Range                 | Iterating slices, maps, strings with `range`         |
+| 12  | [Functions](./12_Functions/)                  | Functions             | Multiple returns, `fmt.Scan`, first-class functions  |
+| 13  | [Variadic Functions](./13_variadic_function/) | Variadic Functions    | `...` syntax, spreading slices                       |
+| 14  | [Closures](./14_closures/)                    | Closures              | Functions with persistent state                      |
+| 15  | [Pointers](./15_pointers/)                    | Pointers              | `&`, `*`, pass by value vs reference                 |
+| 16  | [Structs](./16_Structs/)                      | Structs               | Methods, constructors, embedding (composition)       |
+| 17  | [Interfaces](./17_Interface/)                 | Interfaces            | Implicit implementation, polymorphism                |
+| 18  | [Enums](./18_Enums/)                          | Enums                 | Custom types, `const` blocks, `iota`                 |
+| 19  | [Generics](./19_generics/)                    | Generics              | Type parameters, constraints, generic structs        |
+| 20  | [Goroutines](./20_Goroutines/)                | Goroutines            | `go` keyword, `sync.WaitGroup`, concurrency          |
+| 21  | [Channels](./21_Channels/)                    | Channels              | `chan`, buffered, `select`, synchronization          |
+| 22  | [Mutex](./22_Mutex/)                          | Mutex                 | `sync.Mutex`, race conditions, Lock/Unlock           |
+| 23  | [File Handling](./23_File-Handling/)          | File Handling         | Read, write, copy, delete, `os` & `bufio` packages   |
+| 24  | [Packages](./24_Packages/)                    | Packages              | Custom packages, exports, `go mod`, third-party deps |
 
 ---
 
@@ -77,5 +78,6 @@ learnings/
 ├── 20_Goroutines/            # go keyword, WaitGroup, concurrency
 ├── 21_Channels/              # chan, buffered, select, sync
 ├── 22_Mutex/                 # sync.Mutex, race condition prevention
-└── 23_File-Handling/         # Read, write, copy, delete files
+├── 23_File-Handling/         # Read, write, copy, delete files
+└── 24_Packages/              # Custom packages, exports, go mod
 ```
