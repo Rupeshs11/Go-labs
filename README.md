@@ -38,10 +38,11 @@ Covers Go fundamentals in a step-by-step progression:
 
 ## 🛠️ Projects
 
-| Project                                            | Description                                           |
-| -------------------------------------------------- | ----------------------------------------------------- |
-| [Simple Web Server](./Projects/simple_web-server/) | HTTP server with static files, routes & form handling |
-| REST API                                           | 🔜 Coming Soon                                        |
+| Project                                                 | Description                                           |
+| ------------------------------------------------------- | ----------------------------------------------------- |
+| [Simple Web Server](./Projects/simple_web-server/)      | HTTP server with static files, routes & form handling |
+| [Simple Load Balancer](./Projects/Simple-LoadBalancer/) | Round Robin load balancer using reverse proxies       |
+| REST API                                                | 🔜 Coming Soon                                        |
 
 👉 [View all projects →](./Projects/)
 
