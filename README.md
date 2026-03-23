@@ -43,6 +43,7 @@ Covers Go fundamentals in a step-by-step progression:
 | [Simple Web Server](./Projects/simple_web-server/)      | HTTP server with static files, routes & form handling |
 | [Simple Load Balancer](./Projects/Simple-LoadBalancer/) | Round Robin load balancer using reverse proxies       |
 | [CRUD API](./Projects/CRUD_API/)                        | RESTful Movies API with Gorilla Mux (in-memory CRUD)  |
+| [BookStore API](./Projects/BookStore_mysql/)            | Book Management API with MySQL + GORM                 |
 | REST API                                                | 🔜 Coming Soon                                        |
 
 👉 [View all projects →](./Projects/)
