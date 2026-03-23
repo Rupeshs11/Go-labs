@@ -156,23 +156,23 @@ func ParseBody(r *http.Request, x interface{}) {
 
 ### Initial Data — GET All Books
 
-![GET All Books](./assests/intial%20get%20all.png)
+![GET All Books](./assets/intial%20get%20all.png)
 
 ### Database After Setup
 
-![Database View](./assests/Database_create.png)
+![Database View](./assets/Database_create.png)
 
 ### Create a New Book
 
-![Create Book](./assests/Create%20book.png)
+![Create Book](./assets/Create%20book.png)
 
 ### Update a Book
 
-![Update Book](./assests/Update.png)
+![Update Book](./assets/Update.png)
 
 ### Database After Update
 
-![Database After Update](./assests/db_after_update.png)
+![Database After Update](./assets/db_after_update.png)
 
 ### Delete a Book
 
