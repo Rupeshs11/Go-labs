@@ -176,15 +176,15 @@ func ParseBody(r *http.Request, x interface{}) {
 
 ### Delete a Book
 
-![Delete Book](./assests/Delete.png)
+![Delete Book](./assets/Delete.png)
 
 ### After Deletion — API Response
 
-![After Delete Response](./assests/after_delete.png)
+![After Delete Response](./assets/after_delete.png)
 
 ### After Deletion — Database View
 
-![After Delete DB](./assests/after_delete_db.png)
+![After Delete DB](./assets/after_delete_db.png)
 
 ---
 
