@@ -1,0 +1,12 @@
+{
+	"Name": "Tonystark",
+	"Age": 3000,
+	"Contact": "0070070070",
+	"Company": "Stark Industries",
+	"Address": {
+		"City": "New York",
+		"State": "unknown",
+		"Country": "USA",
+		"Pincode": 123456
+	}
+}

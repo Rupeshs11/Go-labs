@@ -1,0 +1,12 @@
+{
+	"Name": "Luffy",
+	"Age": 21,
+	"Contact": "246801379",
+	"Company": "StrawHats",
+	"Address": {
+		"City": "East-Blue",
+		"State": "GrandLine",
+		"Country": "One Piece",
+		"Pincode": 200001
+	}
+}

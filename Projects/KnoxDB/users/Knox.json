@@ -1,0 +1,12 @@
+{
+	"Name": "Knox",
+	"Age": 11,
+	"Contact": "1234567890",
+	"Company": "Knoxverse",
+	"Address": {
+		"City": "Jalgaon",
+		"State": "Maharashtra",
+		"Country": "India",
+		"Pincode": 425001
+	}
+}
