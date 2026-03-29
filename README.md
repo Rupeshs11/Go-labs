@@ -47,6 +47,7 @@ Covers Go fundamentals in a step-by-step progression:
 | [MongoDB User API](./Projects/MongoDB_API/)             | User API with MongoDB + httprouter                    |
 | [OTP Verifier](./Projects/OTP_verifier/)                | OTP SMS sending and verification API using Twilio/Gin |
 | [KnoxDB](./Projects/KnoxDB/)                            | JSON-based thread-safe NoSQL No-Dependency Database   |
+| [CLI Reminder](./Projects/CLI-Reminder/)                | Cross-platform CLI natural language reminder tool     |
 | REST API                                                | 🔜 Coming Soon                                        |
 
 👉 [View all projects →](./Projects/)
