@@ -14,4 +14,5 @@ Hands-on Go projects to apply what was learned in the [learnings](../learnings/)
 | 06  | [OTP Verifier](./OTP_verifier/)                | OTP SMS sending and verification API using Twilio/Gin | ✅ Done        |
 | 07  | [KnoxDB](./KnoxDB/)                            | JSON-based thread-safe NoSQL No-Dependency Database   | ✅ Done        |
 | 08  | [CLI Reminder](./CLI-Reminder/)                | Cross-platform CLI natural language reminder tool     | ✅ Done        |
-| 09  | [REST API](./REST-API/)                        | RESTful API with Go                                   | 🔜 Coming Soon |
+| 09  | [Web Health Checker](./web_health_checker/)    | CLI tool to check website uptime via TCP connection   | ✅ Done        |
+| 10  | [REST API](./REST-API/)                        | RESTful API with Go                                   | 🔜 Coming Soon |
