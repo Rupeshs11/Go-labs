@@ -49,6 +49,7 @@ Covers Go fundamentals in a step-by-step progression:
 | [KnoxDB](./Projects/KnoxDB/)                            | JSON-based thread-safe NoSQL No-Dependency Database   |
 | [CLI Reminder](./Projects/CLI-Reminder/)                | Cross-platform CLI natural language reminder tool     |
 | [Web Health Checker](./Projects/web_health_checker/)    | CLI tool to check website uptime via TCP connection   |
+| [Simple Cache](./Projects/Simple-Cache/)                | Core CS data-structures LRU cache implementation      |
 | REST API                                                | 🔜 Coming Soon                                        |
 
 👉 [View all projects →](./Projects/)
