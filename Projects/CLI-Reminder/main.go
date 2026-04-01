@@ -50,16 +50,13 @@ func main(){
 	if os.Getenv(markName) == markValue {
 		time.Sleep(diff)
 		message := strings.Join(os.Args[2:], " ")
-		// Make sure a sound still plays
 		beeep.Beep(beeep.DefaultFreq, beeep.DefaultDuration)
 
 		if runtime.GOOS == "windows" {
-			// Force a real visual MessageBox popup on Windows
 			user32 := syscall.NewLazyDLL("user32.dll")
 			messageBox := user32.NewProc("MessageBoxW")
 			titlePtr, _ := syscall.UTF16PtrFromString("Reminder")
 			msgPtr, _ := syscall.UTF16PtrFromString(message)
-			// MB_OK | MB_ICONINFORMATION | MB_SETFOREGROUND
 			messageBox.Call(0, uintptr(unsafe.Pointer(msgPtr)), uintptr(unsafe.Pointer(titlePtr)), 0x00010040)
 		} else {
 			err := beeep.Alert("Reminder", message, "")
