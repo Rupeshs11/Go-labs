@@ -95,4 +95,4 @@ As the program loops through an array of words, the cache gracefully shifts data
 
 ## 📚 Learnings
 
-This project is a perfect demonstration of why **Doubly Linked Lists** are paired with **Hash Maps** when building LRU caches. A standard singly linked list or array would require $O(N)$ operations to find or shift elements, but this combined structure guarantees maximum performance!
+This project is a perfect demonstration of why **Doubly Linked Lists** are paired with **Hash Maps** when building LRU caches. A standard singly linked list or array would require $O(N)$ operations to find or shift elements, but this combined structure guarantees maximum performance...!
