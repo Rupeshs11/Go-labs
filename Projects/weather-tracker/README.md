@@ -94,9 +94,10 @@ http.HandleFunc("/weather/", func(w http.ResponseWriter, r *http.Request) {
 
 | Endpoints                  | Outcome                                |
 | -------------------------- | -------------------------------------- |
-| Testing the `/hello` route | ![Hello output](./assets/output1.png)  |
-| Running `/weather/tokyo`   | ![Tokyo weather](./assets/output2.png) |
-| Running `/weather/paris`   | ![Paris weather](./assets/output3.png) |
+| Testing the `/hello` route | ![Jalgaon output](./assets/hello.png)  |
+| Running `/weather/jalgaon` | ![jalgaon weather](./assets/output1.png)|
+| Running `/weather/london`  | ![London weather](./assets/output2.png) |
+| Running `/weather/mumbai`  | ![Mumbai weather](./assets/output3.png) |
 
 ---
 
