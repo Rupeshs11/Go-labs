@@ -51,6 +51,7 @@ Covers Go fundamentals in a step-by-step progression:
 | [Web Health Checker](./Projects/web_health_checker/)    | CLI tool to check website uptime via TCP connection    |
 | [Simple Cache](./Projects/Simple-Cache/)                | Core CS data-structures LRU cache implementation       |
 | [Go Weather Tracker](./Projects/go-weather-tracker/)    | Web server fetching live data using OpenWeatherMap API |
+| [File Encrypter](./Projects/file-encrypter/)            | AES-256 GCM File Encryption CLI with PBKDF2 stretching |
 | REST API                                                | 🔜 Coming Soon                                         |
 
 👉 [View all projects →](./Projects/)
