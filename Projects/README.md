@@ -19,4 +19,5 @@ Hands-on Go projects to apply what was learned in the [learnings](../learnings/)
 | 11  | [Go Weather Tracker](./go-weather-tracker/)    | Web server fetching live data using OpenWeatherMap API | ✅ Done        |
 | 12  | [File Encrypter](./file-encrypter/)            | AES-256 GCM File Encryption CLI with PBKDF2 stretching | ✅ Done        |
 | 13  | [Email Checker](./Email-checker/)              | Bulk DNS validation tool checking MX, SPF, and DMARC   | ✅ Done        |
-| 14  | [REST API](./REST-API/)                        | RESTful API with Go                                    | 🔜 Coming Soon |
+| 14  | [Text Encrypter](./text_encrypter/)            | Classic Caesar Cipher text substitution encryptor      | ✅ Done        |
+| 15  | [REST API](./REST-API/)                        | RESTful API with Go                                    | 🔜 Coming Soon |
