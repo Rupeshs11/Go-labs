@@ -38,23 +38,24 @@ Covers Go fundamentals in a step-by-step progression:
 
 ## 🛠️ Projects
 
-| Project                                                 | Description                                            |
-| ------------------------------------------------------- | ------------------------------------------------------ |
-| [Simple Web Server](./Projects/simple_web-server/)      | HTTP server with static files, routes & form handling  |
-| [Simple Load Balancer](./Projects/Simple-LoadBalancer/) | Round Robin load balancer using reverse proxies        |
-| [CRUD API](./Projects/CRUD_API/)                        | RESTful Movies API with Gorilla Mux (in-memory CRUD)   |
-| [BookStore API](./Projects/BookStore_mysql/)            | Book Management API with MySQL + GORM                  |
-| [MongoDB User API](./Projects/MongoDB_API/)             | User API with MongoDB + httprouter                     |
-| [OTP Verifier](./Projects/OTP_verifier/)                | OTP SMS sending and verification API using Twilio/Gin  |
-| [KnoxDB](./Projects/KnoxDB/)                            | JSON-based thread-safe NoSQL No-Dependency Database    |
-| [CLI Reminder](./Projects/CLI-Reminder/)                | Cross-platform CLI natural language reminder tool      |
-| [Web Health Checker](./Projects/web_health_checker/)    | CLI tool to check website uptime via TCP connection    |
-| [Simple Cache](./Projects/Simple-Cache/)                | Core CS data-structures LRU cache implementation       |
-| [Go Weather Tracker](./Projects/go-weather-tracker/)    | Web server fetching live data using OpenWeatherMap API |
-| [File Encrypter](./Projects/file-encrypter/)            | AES-256 GCM File Encryption CLI with PBKDF2 stretching |
-| [Email Checker](./Projects/Email-checker/)              | Bulk DNS validation tool checking MX, SPF, and DMARC   |
-| [Text Encrypter](./Projects/text_encrypter/)            | Classic Caesar Cipher text substitution encryptor      |
-| REST API                                                | 🔜 Coming Soon                                         |
+| Project                                                 | Description                                              |
+| ------------------------------------------------------- | -------------------------------------------------------- |
+| [Simple Web Server](./Projects/simple_web-server/)      | HTTP server with static files, routes & form handling    |
+| [Simple Load Balancer](./Projects/Simple-LoadBalancer/) | Round Robin load balancer using reverse proxies          |
+| [CRUD API](./Projects/CRUD_API/)                        | RESTful Movies API with Gorilla Mux (in-memory CRUD)     |
+| [BookStore API](./Projects/BookStore_mysql/)            | Book Management API with MySQL + GORM                    |
+| [MongoDB User API](./Projects/MongoDB_API/)             | User API with MongoDB + httprouter                       |
+| [OTP Verifier](./Projects/OTP_verifier/)                | OTP SMS sending and verification API using Twilio/Gin    |
+| [KnoxDB](./Projects/KnoxDB/)                            | JSON-based thread-safe NoSQL No-Dependency Database      |
+| [CLI Reminder](./Projects/CLI-Reminder/)                | Cross-platform CLI natural language reminder tool        |
+| [Web Health Checker](./Projects/web_health_checker/)    | CLI tool to check website uptime via TCP connection      |
+| [Simple Cache](./Projects/Simple-Cache/)                | Core CS data-structures LRU cache implementation         |
+| [Go Weather Tracker](./Projects/go-weather-tracker/)    | Web server fetching live data using OpenWeatherMap API   |
+| [File Encrypter](./Projects/file-encrypter/)            | AES-256 GCM File Encryption CLI with PBKDF2 stretching   |
+| [Email Checker](./Projects/Email-checker/)              | Bulk DNS validation tool checking MX, SPF, and DMARC     |
+| [Text Encrypter](./Projects/text_encrypter/)            | Classic Caesar Cipher text substitution encryptor        |
+| [ChatGPT API](./Projects/chatgpt_api/)                  | Simple CLI application to interact with OpenAI GPT-3 API |
+| REST API                                                | 🔜 Coming Soon                                           |
 
 👉 [View all projects →](./Projects/)
 
