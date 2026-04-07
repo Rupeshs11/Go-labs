@@ -53,6 +53,7 @@ Covers Go fundamentals in a step-by-step progression:
 | [Go Weather Tracker](./Projects/go-weather-tracker/)    | Web server fetching live data using OpenWeatherMap API |
 | [File Encrypter](./Projects/file-encrypter/)            | AES-256 GCM File Encryption CLI with PBKDF2 stretching |
 | [Email Checker](./Projects/Email-checker/)              | Bulk DNS validation tool checking MX, SPF, and DMARC   |
+| [Text Encrypter](./Projects/text_encrypter/)            | Classic Caesar Cipher text substitution encryptor      |
 | REST API                                                | 🔜 Coming Soon                                         |
 
 👉 [View all projects →](./Projects/)
