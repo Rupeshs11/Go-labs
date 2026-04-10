@@ -55,6 +55,7 @@ Covers Go fundamentals in a step-by-step progression:
 | [Email Checker](./Projects/Email-checker/)              | Bulk DNS validation tool checking MX, SPF, and DMARC     |
 | [Text Encrypter](./Projects/text_encrypter/)            | Classic Caesar Cipher text substitution encryptor        |
 | [ChatGPT API](./Projects/chatgpt_api/)                  | Simple CLI application to interact with OpenAI GPT-3 API |
+| [Stock Scraper](./Projects/stock_scraper/)              | Web scraper leveraging Colly to export Yahoo stock CSVs  |
 | REST API                                                | 🔜 Coming Soon                                           |
 
 👉 [View all projects →](./Projects/)
