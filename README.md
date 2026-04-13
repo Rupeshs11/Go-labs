@@ -56,6 +56,7 @@ Covers Go fundamentals in a step-by-step progression:
 | [Text Encrypter](./Projects/text_encrypter/)            | Classic Caesar Cipher text substitution encryptor        |
 | [ChatGPT API](./Projects/chatgpt_api/)                  | Simple CLI application to interact with OpenAI GPT-3 API |
 | [Stock Scraper](./Projects/stock_scraper/)              | Web scraper leveraging Colly to export Yahoo stock CSVs  |
+| [Google Scraper](./Projects/google-scraper/)            | Google Search scraper with goquery, proxy & pagination   |
 | REST API                                                | 🔜 Coming Soon                                           |
 
 👉 [View all projects →](./Projects/)
