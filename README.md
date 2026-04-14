@@ -57,6 +57,7 @@ Covers Go fundamentals in a step-by-step progression:
 | [ChatGPT API](./Projects/chatgpt_api/)                  | Simple CLI application to interact with OpenAI GPT-3 API |
 | [Stock Scraper](./Projects/stock_scraper/)              | Web scraper leveraging Colly to export Yahoo stock CSVs  |
 | [Google Scraper](./Projects/google-scraper/)            | Google Search scraper with goquery, proxy & pagination   |
+| [Text Search Engine](./Projects/Text-search-engine/)    | Full-text search engine with inverted index and stemming |
 | REST API                                                | 🔜 Coming Soon                                           |
 
 👉 [View all projects →](./Projects/)
