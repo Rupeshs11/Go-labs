@@ -23,4 +23,5 @@ Hands-on Go projects to apply what was learned in the [learnings](../learnings/)
 | 15  | [ChatGPT API](./chatgpt_api/)                  | Simple CLI application to interact with OpenAI GPT-3 API | ✅ Done        |
 | 16  | [Stock Scraper](./stock_scraper/)              | Web scraper leveraging Colly to export Yahoo stock CSVs  | ✅ Done        |
 | 17  | [Google Scraper](./google-scraper/)            | Google Search scraper with goquery, proxy & pagination   | ✅ Done        |
-| 18  | [REST API](./REST-API/)                        | RESTful API with Go                                      | 🔜 Coming Soon |
+| 18  | [Text Search Engine](./Text-search-engine/)    | Full-text search engine with inverted index and stemming | ✅ Done        |
+| 19  | [REST API](./REST-API/)                        | RESTful API with Go                                      | 🔜 Coming Soon |
