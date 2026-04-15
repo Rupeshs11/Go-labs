@@ -58,6 +58,7 @@ Covers Go fundamentals in a step-by-step progression:
 | [Stock Scraper](./Projects/stock_scraper/)              | Web scraper leveraging Colly to export Yahoo stock CSVs  |
 | [Google Scraper](./Projects/google-scraper/)            | Google Search scraper with goquery, proxy & pagination   |
 | [Text Search Engine](./Projects/Text-search-engine/)    | Full-text search engine with inverted index and stemming |
+| [CRM API](./Projects/CRM/)                              | CRM backend powered by Fiber framework and SQLite GORM   |
 | REST API                                                | 🔜 Coming Soon                                           |
 
 👉 [View all projects →](./Projects/)
