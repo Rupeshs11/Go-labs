@@ -24,4 +24,5 @@ Hands-on Go projects to apply what was learned in the [learnings](../learnings/)
 | 16  | [Stock Scraper](./stock_scraper/)              | Web scraper leveraging Colly to export Yahoo stock CSVs  | ✅ Done        |
 | 17  | [Google Scraper](./google-scraper/)            | Google Search scraper with goquery, proxy & pagination   | ✅ Done        |
 | 18  | [Text Search Engine](./Text-search-engine/)    | Full-text search engine with inverted index and stemming | ✅ Done        |
-| 19  | [REST API](./REST-API/)                        | RESTful API with Go                                      | 🔜 Coming Soon |
+| 19  | [CRM API](./CRM/)                              | CRM backend powered by Fiber framework and SQLite GORM   | ✅ Done        |
+| 20  | [REST API](./REST-API/)                        | RESTful API with Go                                      | 🔜 Coming Soon |
