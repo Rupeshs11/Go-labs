@@ -100,9 +100,3 @@ go run main.go
 ```
 
 ---
-
-## 📌 More Coming Soon
-
-- 🔜 REST API project
-- 🔜 CLI tools
-- 🔜 Database integration
